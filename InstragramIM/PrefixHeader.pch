@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  InstragramIM
+//
+//  Created by lisongrc on 15-4-11.
+//  Copyright (c) 2015年 rcplatform. All rights reserved.
+//
+
+#ifndef InstragramIM_PrefixHeader_pch
+#define InstragramIM_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kPSAppid 30038
+#define kRedirectUri @"igd31c225c691d41b393394966b4b3ad2b://authorize"
+#define kClientId @"d31c225c691d41b393394966b4b3ad2b"
+#define kClientSecret @"187488efe23e46f7911bac4464c0ae6f"
+
+#define kIsLogin @"isLogin"
+#define kUid @"uid"
+#define kUsername @"username"
+#define kPic @"pic"
+#define kAccessToken @"accessToken"
+#import "AFNetworking.h"
+#import "MBProgressHUD.h"
+#import "PS_DataRequest.h"
+
+#endif
